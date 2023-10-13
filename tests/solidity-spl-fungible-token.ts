@@ -24,10 +24,10 @@ describe("spl-token-minter", () => {
   const program = anchor.workspace.SplTokenMinter as Program<SplTokenMinter>;
 
   // Metadata for the Token
-  const tokenTitle = "Solidity SPL Fungible Token";
-  const tokenSymbol = "SSPLFT";
+  const tokenTitle = "Prompt Token";
+  const tokenSymbol = "PMT";
   const tokenUri =
-    "https://raw.githubusercontent.com/dProgrammingUniversity/solidity-spl-fungible-token/main/spl-token.json";
+    "https://raw.githubusercontent.com/lazyfuhrer/solidity-spl-fungible-token/main/spl-token.json";
 
   it("Is initialized!", async () => {
     // Initialize data account for the program, which is required by Solang
